@@ -37,15 +37,15 @@ To solve this dataset bias, **Advanced Data Augmentation** was implemented direc
    cd Product-Freshness-Detection
 
 2. **Set up the environment:**
-Create a new Python environment and install the required packages. Using Conda is highly recommended for managing TensorFlow dependencies on Windows:
+   Create a new Python environment and install the required packages. Using Conda is highly recommended for managing TensorFlow dependencies on Windows:
 
-```bash
-conda create -n freshness_pj python=3.10
-conda activate freshness_pj
-pip install -r requirements.txt
+   ```bash
+   conda create -n freshness_pj python=3.10
+   conda activate freshness_pj
+   pip install -r requirements.txt
 
 3. **Run a Prediction:**
-To evaluate a single image, use the predict.py script and pass the path to your target image:
+   To evaluate a single image, use the predict.py script and pass the path to your target image:
 
-```bash
-python predict.py path/to/your/test_image.jpg
+   ```bash
+   python predict.py path/to/your/test_image.jpg
