@@ -11,11 +11,8 @@ This project utilizes a preprocessed version of the "Fresh and Rotten Fruits Dat
 ### 📚 Dataset Reference
 The images used to train and evaluate this model were sourced from the publicly available **Fresh and Rotten Fruits Dataset**. 
 * **Platform:** Kaggle
-* **Dataset Link:** `[Insert actual Kaggle link here]`
+* **Dataset Link:** `https://www.kaggle.com/datasets/swoyam2609/fresh-and-stale-classification`
 * **Modifications:** The dataset was locally modified to remove unaligned classes (capsicum, bittergourd) and correct folder naming conventions for seamless multi-class training.
-
-**Citation:**
-> [Dataset Creator's Name]. (Year). *Fresh and Rotten Fruits Dataset* [Data set]. Kaggle. `[Insert actual Kaggle link here]`
 
 ## 🧠 Methodology & Architecture
 Due to the multi-class nature of the problem, this project utilizes **Transfer Learning** rather than training a CNN from scratch. 
