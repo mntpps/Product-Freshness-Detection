@@ -1,0 +1,19 @@
+# Python & Environments
+__pycache__/
+*.pyc
+.env
+freshness_pj/
+
+# Datasets
+dataset/
+data/
+
+# Model Weights
+*.keras
+*.h5
+*.pb
+*.pt
+
+# OS Files
+.DS_Store
+Thumbs.db
